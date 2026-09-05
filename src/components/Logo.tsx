@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { withBasePath } from "@/lib/paths";
 
 type LogoProps = {
   className?: string;
@@ -13,7 +14,7 @@ export function Logo({
 }: LogoProps) {
   return (
     <Image
-      src="/brand/logo.png"
+      src={withBasePath("/brand/logo.png")}
       alt={alt}
       width={800}
       height={800}

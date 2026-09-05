@@ -4,7 +4,10 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { JsonLd } from "@/components/JsonLd";
 import { business } from "@/lib/content";
+import { siteUrl, withBasePath } from "@/lib/paths";
 import "./globals.css";
+
+const logoSrc = withBasePath("/brand/logo.png");
 
 const heebo = Heebo({
   variable: "--font-heebo",
@@ -18,6 +21,7 @@ const frank = Frank_Ruhl_Libre({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(`${siteUrl()}/`),
   title: {
     default: `${business.name} | מאפייה בבאר שבע`,
     template: `%s | ${business.name}`,
@@ -25,15 +29,15 @@ export const metadata: Metadata = {
   description:
     "מאפייה בלב באר שבע. סמבוסקים מתנור אבן, בורקסים, מאפים ושעות פעילות עד הלילה. קק\"ל 2.",
   icons: {
-    icon: "/brand/logo.png",
-    apple: "/brand/logo.png",
+    icon: logoSrc,
+    apple: logoSrc,
   },
   openGraph: {
     title: business.name,
     description: business.tagline,
     locale: "he_IL",
     type: "website",
-    images: ["/brand/logo.png"],
+    images: [`${siteUrl()}/brand/logo.png`],
   },
 };
 
