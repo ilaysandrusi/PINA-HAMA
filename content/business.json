@@ -1,0 +1,96 @@
+{
+  "name": "הפינה החמה",
+  "nameEn": "HaPina HaHama",
+  "tagline": "מאפייה לילית בלב באר שבע",
+  "city": "באר שבע",
+  "area": "העיר העתיקה",
+  "address": {
+    "street": "קק\"ל 2",
+    "city": "באר שבע",
+    "zip": "84210",
+    "country": "ישראל",
+    "full": "קק\"ל 2, באר שבע"
+  },
+  "geo": {
+    "query": "הפינה החמה קק\"ל 2 באר שבע",
+    "mapsCid": "2614862666061085362",
+    "mapsUrl": "https://maps.google.com/?cid=2614862666061085362"
+  },
+  "phones": [
+    {
+      "id": "mobile",
+      "label": "נייד / וואטסאפ",
+      "display": "050-877-7464",
+      "tel": "+972508777464",
+      "whatsapp": "972508777464",
+      "primary": true
+    },
+    {
+      "id": "landline",
+      "label": "קווי",
+      "display": "08-623-3833",
+      "tel": "+97286233833",
+      "primary": false
+    }
+  ],
+  "hours": [
+    {
+      "id": "sun-wed",
+      "days": "א׳–ד׳",
+      "opens": "07:00",
+      "closes": "02:00",
+      "closed": false
+    },
+    {
+      "id": "thu",
+      "days": "יום ה׳",
+      "opens": "07:00",
+      "closes": "04:00",
+      "closed": false
+    },
+    {
+      "id": "fri",
+      "days": "יום ו׳",
+      "opens": null,
+      "closes": null,
+      "closed": true
+    },
+    {
+      "id": "motzei",
+      "days": "מוצ״ש",
+      "opens": null,
+      "closes": "04:00",
+      "closed": false,
+      "note": "חצי שעה אחרי צאת השבת"
+    }
+  ],
+  "hoursSource": "legacy-wix-homepage",
+  "hoursNeedsConfirmation": true,
+  "kashrut": {
+    "label": "כשר חלבי",
+    "status": "reported",
+    "needsConfirmation": true,
+    "note": "מקורות ציבוריים מציינים כשרות חלבית. לא לפרסם שם בד\"ץ עד אישור בעלים."
+  },
+  "features": [
+    "סמבוסקים בתנור אבן",
+    "פתוח עד הלילה",
+    "איסוף עצמי",
+    "משלוחים בטלפון"
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/112773118804622",
+    "instagram": null
+  },
+  "nav": [
+    { "href": "/", "label": "בית" },
+    { "href": "/menu", "label": "תפריט" },
+    { "href": "/about", "label": "קצת עלינו" },
+    { "href": "/visit", "label": "הגעה" }
+  ],
+  "legacy": {
+    "wixUrl": "https://shaharhiamov.wixsite.com/mysite-5",
+    "wixMenuUrl": "https://shaharhiamov.wixsite.com/mysite-5/menu",
+    "googleShareUrl": "https://share.google/blEOf2iLEbpve9ECx"
+  }
+}

@@ -1,0 +1,15 @@
+---
+description: Core project rules for הפינה החמה so agents do not invent content or break the structure
+alwaysApply: true
+---
+
+# הפינה החמה
+
+Hebrew RTL bakery site for a well-known Beer Sheva shop. Read `AGENTS.md` and `content/README.md` before changing anything.
+
+- Edit hours, phones, prices, and marketing copy only in `content/*.json`.
+- Do not add Wix widgets, login, shop, or delivery iframes.
+- Do not invent kashrut names, Instagram, or hours from Google scrapers.
+- Fields with `needsConfirmation: true` stay flagged until the owners confirm.
+- Keep the site RTL (`dir="rtl"`) and Hebrew-first.
+- Real photos go in `public/photos/`. No generic bakery stock.

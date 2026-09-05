@@ -1,0 +1,310 @@
+{
+  "currency": "ILS",
+  "source": "legacy-wix-menu",
+  "needsConfirmation": true,
+  "note": "הועתק מ-Wix ב-2026-09. לא לחשוב שהמחירים סופיים.",
+  "featuredIds": [
+    "sambusak-pizza",
+    "sambusak-prikasa",
+    "sambusak-tuna",
+    "sambusak-potato",
+    "sambusak-shakshuka",
+    "sambusak-mixed"
+  ],
+  "categories": [
+    {
+      "id": "sambusak",
+      "name": "סמבוסקים",
+      "description": "נאפים במקום בתנור אבן. ביצה בתוספת 3 ₪.",
+      "items": [
+        {
+          "id": "sambusak-pizza",
+          "name": "סמבוסק פיצה",
+          "description": "רוטב פיצה, זיתים, גבינה צהובה",
+          "price": 15,
+          "spicy": false
+        },
+        {
+          "id": "sambusak-something",
+          "name": "סמבוסק תירס ופטריות",
+          "description": "תירס, פטריות, בצל מטוגן, גבינה צהובה",
+          "price": 15,
+          "spicy": false
+        },
+        {
+          "id": "sambusak-prikasa",
+          "name": "סמבוסק פריקסה",
+          "description": "טונה, זיתים, תפו\"א, חריף, ביצה",
+          "price": 15,
+          "spicy": true
+        },
+        {
+          "id": "sambusak-mushrooms",
+          "name": "סמבוסק פטריות",
+          "description": "פטריות, רוטב עגבניות ובצל מטוגן",
+          "price": 15,
+          "spicy": false
+        },
+        {
+          "id": "sambusak-tuna",
+          "name": "סמבוסק טונה",
+          "description": "טונה, רוטב עגבניות, זיתים ירוקים",
+          "price": 15,
+          "spicy": false
+        },
+        {
+          "id": "sambusak-bulgarian",
+          "name": "סמבוסק בולגרית",
+          "description": "גבינה בולגרית",
+          "price": 15,
+          "spicy": false
+        },
+        {
+          "id": "sambusak-potato",
+          "name": "סמבוסק תפו\"א",
+          "description": "תפוח אדמה ובצל מטוגן",
+          "price": 15,
+          "spicy": false
+        },
+        {
+          "id": "sambusak-mixed",
+          "name": "סמבוסק מעורב",
+          "description": "פטריות, תפו\"א, ביצה, רוטב עגבניות, גבינה צהובה",
+          "price": 15,
+          "spicy": false
+        },
+        {
+          "id": "sambusak-shakshuka",
+          "name": "שקשוקה",
+          "description": "רוטב עגבניות, ביצה, חריף",
+          "price": 15,
+          "spicy": true
+        },
+        {
+          "id": "sambusak-pita-toast",
+          "name": "סמבוסק פיתה טוסט",
+          "description": "רוטב פיצה, זיתים, גבינה צהובה",
+          "price": 15,
+          "spicy": false
+        },
+        {
+          "id": "sambusak-cheeses",
+          "name": "גבינות",
+          "description": "גבינה בולגרית וגבינה צהובה",
+          "price": 15,
+          "spicy": false
+        }
+      ]
+    },
+    {
+      "id": "toasts",
+      "name": "טוסטים ופיצות",
+      "description": "",
+      "items": [
+        {
+          "id": "bagel-toast-extras",
+          "name": "בייגל טוסט עם תוספות",
+          "description": "רוטב פיצה, זיתים, גבינה צהובה. ביצה בתוספת.",
+          "price": 26,
+          "spicy": false
+        },
+        {
+          "id": "baguette-toast",
+          "name": "בגט טוסט",
+          "description": "לא כולל ביצה",
+          "price": 26,
+          "spicy": false
+        },
+        {
+          "id": "personal-pizza",
+          "name": "פיצה אישית",
+          "description": "רוטב פיצה, זיתים, גבינה צהובה",
+          "price": 15,
+          "spicy": false
+        },
+        {
+          "id": "bagel-toast-pizza",
+          "name": "בייגל טוסט פיצה",
+          "description": "רוטב פיצה, זיתים, גבינה צהובה",
+          "price": 20,
+          "spicy": false
+        }
+      ]
+    },
+    {
+      "id": "pastries",
+      "name": "בורקסים ומאפים",
+      "description": "",
+      "items": [
+        {
+          "id": "burekas-cheese",
+          "name": "בורקס גבינה",
+          "description": "",
+          "price": 10,
+          "spicy": false
+        },
+        {
+          "id": "burekas-potato",
+          "name": "בורקס תפו\"א",
+          "description": "",
+          "price": 10,
+          "spicy": false
+        },
+        {
+          "id": "chocolate-pastry",
+          "name": "מאפה שוקולד",
+          "description": "",
+          "price": 7,
+          "spicy": false
+        },
+        {
+          "id": "cookies",
+          "name": "קוקיס שחור / לבן",
+          "description": "",
+          "price": 7,
+          "spicy": false
+        }
+      ]
+    },
+    {
+      "id": "sweets",
+      "name": "מתוקים",
+      "description": "",
+      "items": [
+        {
+          "id": "tricolore",
+          "name": "טריקולד",
+          "description": "",
+          "price": 18,
+          "spicy": false
+        },
+        {
+          "id": "souffle",
+          "name": "סופלה שוקולד",
+          "description": "",
+          "price": 18,
+          "spicy": false
+        },
+        {
+          "id": "crumb-cheesecake",
+          "name": "גבינת פירורים",
+          "description": "",
+          "price": 18,
+          "spicy": false
+        },
+        {
+          "id": "watermelon-box",
+          "name": "קופסת אבטיח",
+          "description": "",
+          "price": 10,
+          "spicy": false
+        }
+      ]
+    },
+    {
+      "id": "drinks-cold",
+      "name": "שתייה קרה",
+      "description": "",
+      "items": [
+        {
+          "id": "lemonade",
+          "name": "לימונדה טבעית בכוס",
+          "description": "",
+          "price": 7,
+          "spicy": false
+        },
+        {
+          "id": "classic-bottle",
+          "name": "בקבוק קלאסי",
+          "description": "",
+          "price": 8,
+          "spicy": false
+        },
+        {
+          "id": "water",
+          "name": "מים מינרליים",
+          "description": "",
+          "price": 7,
+          "spicy": false
+        },
+        {
+          "id": "chocolate-bag",
+          "name": "שוקו בשקית",
+          "description": "",
+          "price": 3,
+          "spicy": false
+        },
+        {
+          "id": "soda",
+          "name": "סודה",
+          "description": "",
+          "price": 7,
+          "spicy": false
+        },
+        {
+          "id": "family-bottle",
+          "name": "בקבוק שתייה 1.5 ליטר",
+          "description": "ספרייט / קולה / קולה זירו",
+          "price": 12,
+          "spicy": false
+        },
+        {
+          "id": "fresh-juice-bottle",
+          "name": "מיץ טבעי בבקבוק",
+          "description": "ענבים / תפוזים / לימונענע",
+          "price": 10,
+          "spicy": false
+        },
+        {
+          "id": "ice-vanilla",
+          "name": "אייס וניל",
+          "description": "",
+          "price": 10,
+          "spicy": false
+        }
+      ]
+    },
+    {
+      "id": "drinks-hot",
+      "name": "שתייה חמה",
+      "description": "",
+      "items": [
+        {
+          "id": "espresso",
+          "name": "אספרסו קצר / ארוך",
+          "description": "",
+          "price": 8,
+          "spicy": false
+        },
+        {
+          "id": "espresso-double",
+          "name": "אספרסו כפול",
+          "description": "",
+          "price": 11,
+          "spicy": false
+        },
+        {
+          "id": "hafuch-small",
+          "name": "הפוך קטן",
+          "description": "",
+          "price": 8,
+          "spicy": false
+        },
+        {
+          "id": "hafuch-long",
+          "name": "הפוך ארוך",
+          "description": "",
+          "price": 14,
+          "spicy": false
+        },
+        {
+          "id": "hot-chocolate",
+          "name": "שוקו חם",
+          "description": "",
+          "price": 10,
+          "spicy": false
+        }
+      ]
+    }
+  ]
+}

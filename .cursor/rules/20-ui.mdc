@@ -1,0 +1,21 @@
+---
+description: UI conventions for the Hebrew bakery site
+globs: src/**/*.{tsx,css}
+alwaysApply: false
+---
+
+# UI
+
+- Use existing tokens: `bg-ink`, `text-cream`, `text-gold`, `font-display`, `card`, `btn-gold`.
+- Read data through `@/lib/content`. Do not duplicate address or menu arrays in JSX.
+- New pages belong under `src/app/<route>/page.tsx` and must be added to `content/business.json` `nav` if they are public.
+- Keep layouts simple. This brand is a late-night stone-oven bakery, not a luxury cafe.
+
+```tsx
+// ✅ GOOD
+const phone = primaryPhone();
+<a href={telHref(phone)}>{phone.display}</a>
+
+// ❌ BAD
+<a href="tel:0508777464">050-877-7464</a>
+```

@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: #0c0a08;
+  --color-ink-2: #16120e;
+  --color-cream: #f6ead6;
+  --color-gold: #de9c21;
+  --color-gold-2: #f0c45a;
+  --color-ember: #c45c1a;
+  --font-sans: var(--font-heebo);
+  --font-display: var(--font-frank);
+}
+
+html,
+body {
+  background: var(--color-ink);
+  color: var(--color-cream);
+}
+
+body {
+  font-family: var(--font-sans), Arial, sans-serif;
+  min-height: 100%;
+}
+
+.font-display {
+  font-family: var(--font-display), "Times New Roman", serif;
+}
+
+.hero-glow {
+  background:
+    radial-gradient(ellipse 70% 55% at 80% 90%, rgb(196 92 26 / 0.38), transparent 58%),
+    radial-gradient(ellipse 45% 40% at 20% 85%, rgb(222 156 33 / 0.22), transparent 50%),
+    linear-gradient(180deg, #120e0b 0%, #0c0a08 100%);
+}
+
+.stripe {
+  background: repeating-linear-gradient(
+    -45deg,
+    #0c0a08 0 10px,
+    #de9c21 10px 20px
+  );
+}
+
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--color-gold);
+  color: #1a1208;
+  font-weight: 700;
+  padding: 0.7rem 1.25rem;
+  transition: background 0.15s ease;
+}
+
+.btn-gold:hover {
+  background: var(--color-gold-2);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid rgb(222 156 33 / 0.45);
+  color: var(--color-cream);
+  padding: 0.7rem 1.25rem;
+}
+
+.btn-ghost:hover {
+  border-color: var(--color-gold);
+  color: var(--color-gold);
+}
+
+.card {
+  border: 1px solid rgb(222 156 33 / 0.18);
+  background: rgb(22 18 14 / 0.72);
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+}

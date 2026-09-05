@@ -1,0 +1,21 @@
+---
+description: How to edit business content, menu, and copy
+globs: content/**
+alwaysApply: false
+---
+
+# Content files
+
+`content/` is the source of truth.
+
+```json
+// ✅ GOOD — change the JSON
+{ "display": "050-877-7464" }
+
+// ❌ BAD — hardcoding in a component
+<a href="tel:0508777464">050-877-7464</a>
+```
+
+- Keep IDs stable (`sambusak-tuna`, `sun-wed`). Pages key off them.
+- If a price or hour is uncertain, leave `needsConfirmation: true`.
+- Do not delete categories to "clean up" the menu without owner approval.
