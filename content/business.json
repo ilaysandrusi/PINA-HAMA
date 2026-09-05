@@ -67,10 +67,11 @@
   "hoursSource": "legacy-wix-homepage",
   "hoursNeedsConfirmation": true,
   "kashrut": {
-    "label": "כשר חלבי",
-    "status": "reported",
-    "needsConfirmation": true,
-    "note": "מקורות ציבוריים מציינים כשרות חלבית. לא לפרסם שם בד\"ץ עד אישור בעלים."
+    "label": "כשר למהדרין",
+    "authority": "הרבנות באר שבע",
+    "status": "official-seal",
+    "needsConfirmation": false,
+    "note": "חותמת רשמית מהעסק: בהשגחת הרבנות באר שבע, כשר למהדרין."
   },
   "features": [
     "סמבוסקים בתנור אבן",

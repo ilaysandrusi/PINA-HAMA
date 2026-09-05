@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { KashrutBlock } from "@/components/KashrutSeal";
 import { copy } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -20,6 +21,10 @@ export default function AboutPage() {
           <p key={paragraph}>{paragraph}</p>
         ))}
       </div>
+      <section className="mt-12">
+        <KashrutBlock />
+        <p className="mt-4 text-cream/70">{copy.about.kashrutText}</p>
+      </section>
       <section className="card mt-12">
         <h2 className="font-display text-3xl text-gold">{copy.about.ovenTitle}</h2>
         <p className="mt-3 text-cream/80">{copy.about.ovenText}</p>

@@ -37,11 +37,12 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="relative mx-auto flex h-72 w-72 items-center justify-center md:h-96 md:w-96">
-            <div className="absolute inset-8 rounded-full bg-ember/30 blur-3xl" />
-            <div className="relative rounded-full border border-gold/40 bg-ink-2 p-8 shadow-[0_0_80px_rgba(222,156,33,0.18)]">
-              <Logo className="h-48 w-48 md:h-64 md:w-64" />
-            </div>
+          <div className="relative mx-auto flex h-64 w-64 items-center justify-center md:h-80 md:w-80">
+            <div className="absolute inset-4 rounded-full bg-ember/35 blur-3xl" />
+            <Logo
+              priority
+              className="relative h-full w-full drop-shadow-[0_0_40px_rgba(222,156,33,0.28)]"
+            />
           </div>
         </div>
       </section>

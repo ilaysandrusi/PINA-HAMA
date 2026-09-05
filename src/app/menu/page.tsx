@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { KashrutBlock } from "@/components/KashrutSeal";
 import { copy, formatPrice, menu } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -12,6 +13,9 @@ export default function MenuPage() {
       <p className="text-sm text-gold">{copy.menuPage.eyebrow}</p>
       <h1 className="mt-2 font-display text-5xl">{copy.menuPage.headline}</h1>
       <p className="mt-4 max-w-2xl text-cream/75">{copy.menuPage.lead}</p>
+      <div className="mt-8">
+        <KashrutBlock />
+      </div>
 
       <div className="mt-12 grid gap-12">
         {menu.categories.map((category) => (

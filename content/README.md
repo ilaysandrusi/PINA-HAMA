@@ -19,6 +19,5 @@
 
 - שעות פעילות (`hoursNeedsConfirmation`)
 - מחירי התפריט (`menu.needsConfirmation`)
-- כשרות מדויקת (`kashrut.needsConfirmation`)
 - קישור אינסטגרם
 - תמונות אמיתיות של המקום והמאפים

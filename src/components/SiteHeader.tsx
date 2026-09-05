@@ -15,9 +15,13 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-gold/20 bg-ink/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
-        <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <Logo className="h-12 w-12" />
-          <span className="font-display text-xl text-cream">{business.name}</span>
+        <Link
+          href="/"
+          className="shrink-0"
+          aria-label={business.name}
+          onClick={() => setOpen(false)}
+        >
+          <Logo className="h-16 w-16 md:h-[4.5rem] md:w-[4.5rem]" priority alt="" />
         </Link>
 
         <nav className="hidden items-center gap-7 md:flex">

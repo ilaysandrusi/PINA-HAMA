@@ -24,11 +24,16 @@ export const metadata: Metadata = {
   },
   description:
     "מאפייה בלב באר שבע. סמבוסקים מתנור אבן, בורקסים, מאפים ושעות פעילות עד הלילה. קק\"ל 2.",
+  icons: {
+    icon: "/brand/logo.png",
+    apple: "/brand/logo.png",
+  },
   openGraph: {
     title: business.name,
     description: business.tagline,
     locale: "he_IL",
     type: "website",
+    images: ["/brand/logo.png"],
   },
 };
 

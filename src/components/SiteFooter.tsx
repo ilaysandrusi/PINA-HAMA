@@ -2,6 +2,7 @@ import Link from "next/link";
 import { business, copy, hoursLabel } from "@/lib/content";
 import { telHref } from "@/lib/links";
 import { Logo } from "@/components/Logo";
+import { KashrutBlock } from "@/components/KashrutSeal";
 
 export function SiteFooter() {
   const year = new Date().getFullYear();
@@ -12,10 +13,13 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 md:grid-cols-3">
         <div>
           <div className="flex items-center gap-3">
-            <Logo className="h-12 w-12" />
+            <Logo className="h-16 w-16" />
             <strong className="font-display text-2xl text-cream">{business.name}</strong>
           </div>
           <p className="mt-4 max-w-sm text-cream/75">{copy.footer.blurb}</p>
+          <div className="mt-5">
+            <KashrutBlock compact />
+          </div>
         </div>
 
         <div>
